@@ -1,5 +1,5 @@
 from tensorflow.keras import models
-from tensorflow.keras.layers import *
+from tensorflow.keras.layers import Input, LSTM, RepeatVector, TimeDistributed, Dense
 
 def seq2seq(units,drop,
             back_ts,back_features,
