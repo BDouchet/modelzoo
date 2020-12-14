@@ -1,7 +1,7 @@
 from tensorflow.keras import models
 from tensorflow.keras.layers import Dense, LSTM, Reshape, Input
 
-def VanillaRNN(units,drop,
+def VanillaLSTM(units,drop,
                back_ts,back_features,
                future_ts,future_features,
                activation='tanh'):
