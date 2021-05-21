@@ -9,6 +9,11 @@
 - __seq2seqAttention__ : Similar to `seq2seq` with the add of [Luong Attention](https://arxiv.org/abs/1508.04025).
 
 
+## 3Ds
+
+### PointClouds
+- __pointnet__ : [Network](https://arxiv.org/pdf/1612.00593.pdf) used to perform classification, semantic-segmentation and part-segmentation tasks with Points Clouds
+
 ## Other
 
 ### Custom Losses
