@@ -13,6 +13,8 @@
 
 ### PointClouds
 - __pointnet__ : [Network](https://arxiv.org/pdf/1612.00593.pdf) used to perform classification, semantic-segmentation and part-segmentation tasks with Points Clouds
+- __foldingnet__ : Autoencoder for points clouds data. Encoder is based on pointnet and decoder on [foldingnet](https://arxiv.org/abs/1712.07262).
+
 
 ## Other
 
