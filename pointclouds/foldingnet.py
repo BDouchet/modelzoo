@@ -76,12 +76,12 @@ def foldingnet(N, M, grid):
     grid = K.tile(grid,n=(K.shape(glob)[0],1,1))
     x = layers.Concatenate()([glob,grid])  
 
-    x = conv_bn(x, 514, 1, activation='relu')
+    x = conv_bn(x, 512, 1, activation='relu')
     x = conv_bn(x, 512, 1, activation='relu')
     x = conv_bn(x, 3, 1, activation='linear')
     
     x = layers.Concatenate()([glob,x])
-    x = conv_bn(x, 517, 1, activation='relu')
+    x = conv_bn(x, 512, 1, activation='relu')
     x = conv_bn(x, 512, 1, activation='relu')
     x = conv_bn(x, 3, 1, activation='linear')
        
