@@ -16,6 +16,9 @@
 - __pointnet_foldingnet__ : Autoencoder for points clouds data. Encoder is based on pointnet and decoder on [foldingnet](https://arxiv.org/abs/1712.07262).
 - __foldingnet__ : [Foldingnet](https://arxiv.org/abs/1712.07262), autoencoder for point clouds : (B,N,3) -> (B,M,3), with M a square number
 
+## CNN
+- __ASPP__ : ASPP for Atrous Spatial Pyramid Pooling 
+- __unet__ : CNN used for semantic segmentation
 
 ## Other
 
